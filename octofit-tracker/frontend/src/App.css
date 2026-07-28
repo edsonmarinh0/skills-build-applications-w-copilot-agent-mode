@@ -1,5 +1,22 @@
-.container {
+.app-shell {
   min-height: 100vh;
+  background: linear-gradient(135deg, #f7f9fc 0%, #eef5ff 100%);
+}
+
+.container {
+  max-width: 1120px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #fff;
 }
 
 .card {
